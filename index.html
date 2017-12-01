@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Happy Hour App - How about a drink!?">
+		<meta name="keywords" content="happy hour, drink, beers">
+
+		<title>Happy Hour</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+
+		<script>
+		
+			// Our List of Bars
+			var bars = [
+				'<img src="images/1.jpg">',
+				'<img src="images/2.jpg">',
+				'<img src="images/3.jpg">',
+				'<img src="images/4.jpg">',
+				'<img src="images/5.jpg">',
+				'<img src="images/6.jpg">',
+
+			];
+
+			// Our List of Friends
+			var qoutes = [
+				'Mattan',
+				'Chris',
+				'Lee',
+				'Casey',
+				'that girl you forgot to text back',
+				'Kayne West'
+			];
+
+			var randomNumber = Math.floor(Math.random()*bars.length);
+			
+			var barname = bars[randomNumber];
+			var opdracht = qoutes[randomNumber];
+
+			document.write("" + barname);
+			
+		
+		</script>
+
+
+
+
+
+
+	</head>
+	<body>
+		<!-- PAGE CONTENT WILL BE PRINTED HERE --> 
+	</body>
+</html>
